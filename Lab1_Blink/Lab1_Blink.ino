@@ -55,10 +55,23 @@ void loop() {
   digitalWrite(LED_PIN, LOW);    // turn the LED off by making the voltage LOW
   delay(500);                       // wait for a second
 */
+
+/*
   timedBlink(250);
   timedBlink(500);
   timedBlink(1000);
+*/
 
+  for(int i = 100; i>0; i--){
+  int freq = 100;
+  dimmer(freq, i);
+
+  }
+
+  for(int i = 1; i<101; i++){
+    int freq = 100;
+    dimmer(freq, i);
+  }
 
 
 
