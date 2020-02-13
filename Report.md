@@ -1,8 +1,8 @@
-Name:
+Name: Angela Chan
 
-EID:
+EID: ac74772
 
-Team Number:
+Team Number: ?
 
 ## Questions
 
