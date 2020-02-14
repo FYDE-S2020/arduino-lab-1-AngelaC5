@@ -8,23 +8,23 @@ Team Number: ?
 
 1. Why does your program need a setup and a loop?
 
-    your answer here
+    The program need a setup to start and the loop to let the program run infinitely (as an embedded system).
 
 2. What is the downside to putting all your code in a loop?
 
-    your answer here
+    The downside is that it will be harder to tell what the program is doing as there are too many lines in the loop.
 
 3. Why does your code need to be compiled?
 
-    your answer here
+    Your code need to be compiled to be translated to the machine language.
 
 4. When lowering the frequency in procedure A, step 4, what is going wrong? Brainstorm some solutions. Dimmers exist in the real world. What is their solution?
 
-    your answer here
+    When lowering the frequency, there are the LED is turning on and off at a slower speed and this allows human to see the switching on and off. A solution to this is...
 
 5. Why do you need to connect the logic analyzer ground to the ESP32 ground?
 
-    your answer here
+    This way the logic analyzer and the output(with the program loaded) shares the same ground.
 
 6. What is the difference between synchronous and asynchronous communication?
 
@@ -67,7 +67,7 @@ Procedure A, step 4:
 ![Put path to your image here ->](img/ProcedureA_Part2.PNG)
 
 Procedure B, UART:
-![Put path to your image here ->](img/placeholder.png)
+![Put path to your image here ->](img/ProcedureB_Part1.PNG)
 
 Procedure B, SPI:
-![Put path to your image here ->](img/placeholder.png)
+![Put path to your image here ->](img/ProcedureB_Part2.PNG)
